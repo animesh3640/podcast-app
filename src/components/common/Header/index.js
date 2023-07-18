@@ -7,7 +7,7 @@ function Header() {
       <div className='gradient'></div>
       <div className='links'>
         <NavLink to='/' >Signup</NavLink>
-        <NavLink to='/podcasta' >Podcasts</NavLink>
+        <NavLink to='/podcasts' >Podcasts</NavLink>
         <NavLink to='/create-a-podcast' >Start A Podcast</NavLink>
         <NavLink to='/profile' >Profile</NavLink>
       </div>

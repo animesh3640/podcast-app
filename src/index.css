@@ -7,7 +7,9 @@
   --grey:#d7d7d7;
   --purple-grey:#8f8297;
 }
-
+a{
+  text-decoration: none;
+}
 body {
   margin: 0;
   font-family: 'Inter', sans-serif;
@@ -33,4 +35,11 @@ input{
   text-align: center;
   font-weight: 400;
   margin-bottom: 1rem;
+}
+.podcasts-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
 }
